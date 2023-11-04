@@ -1,0 +1,22 @@
+**** Adding a new Component ***
+_____________________________________________________________________________________________________
+1) All components should be created inside the app folder of the Angular app.
+2) Folder should be created based on the component name, (In my case Server was the component hence the folder was server).
+3) In the folder a ts file should be present for which it should have a typescript class and have @Component decorator
+  3.1) This Decorator has a selector property which has the component tag name to be used in the html tag
+  3.2) This should have the templateUrl the html code where the html code is present for the component
+4) To add the component in the Angular App it should have to be provided in the module
+  4.1) This module is defined by a Decorator called NgModule.
+  4.2) In Declaration property we need to add the component we want to insert for the application
+  4.3) Now this Modules in the Angular used to bundle the pieces(components) of the application
+  4.4) Angular will not know if the component have been added to the folder as Angular will not scan the whole project to find the component,
+    > Hence we need to tell the Angular that it has this component.
+5) Now once we have added the declaration of the component we can use the div tag in the html template and use it.
+ -----------------------------------------------------------------------------------------------------
+NgModule decorator has for properties:
+  -> Declaration : Contains all the component which we need to add in the application, any component we make we need
+    to make it available in the declaration of the module otherwise Angular will not know if the component is created
+  -> Provider : This we will learn in coming lectures
+  -> imports: This will have all the imports which required for the use in the application, like forms, http etc
+  -> bootstrap: This will have the starting component of the angular app which will be triggered at the beginning.
+

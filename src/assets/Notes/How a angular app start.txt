@@ -1,3 +1,5 @@
+Angular is a JS Framework which changes our DOM at runtime.
+_____________________________________________________________________________________________________
 1) The application is having a index.html file which have the html template to render on the DOM.
 2) The first JavaScript file to run on the application is main.ts
 3) In the main.ts we are adding the bootStrapModule as the App Module of the application.
@@ -7,3 +9,6 @@
   5.1) this selector is the name of our component tag in html
   5.2) the templateUrl will have the html file which need to be child of our component.
 6) Finally the html file of the component will have the design of the component which we will use.
+
+Bonus: the CLI will add the script tag to add the bundle file of the application to the index.html, the bundle file is created at the time of the ng serve.
+______
