@@ -19,4 +19,21 @@ NgModule decorator has for properties:
   -> Provider : This we will learn in coming lectures
   -> imports: This will have all the imports which required for the use in the application, like forms, http etc
   -> bootstrap: This will have the starting component of the angular app which will be triggered at the beginning.
+_____________________________________________________________________________________________________
 
+Now the above one is the manual way of adding the components to the application
+Angular provides a command to create the component automatically.
+  -> ng generate component <component-name>
+  OR
+  -> ng g c <component-name>
+
+_____________________________________________________________________________________________________
+
+More about the Angular components
+_________________________________
+The selectors we use as the tag can be use as a tag attributes.
+  if in selectors : we add the name with the wrapping by '[<component-name>]' -> then it can be then it can be used as
+    <div <component-name>></div>
+
+  We can use the component name as classname of the tag such as in selector -> '.<component-name>'
+    <div class="<component-name>"></div>

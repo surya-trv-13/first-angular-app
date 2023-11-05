@@ -1,0 +1,24 @@
+***DataBinding***
+_____________________________________________________________________________________________________
+
+Databinding is nothing but the Communication between Html and ts files
+
+There are 3 types of databinding possible
+
+_______________                                       ________________
+|              |         Output                       |               |
+|    TS        |    ======================>           |   HTML        |
+|     File     |    <======================           |   File        |
+|              |         React(Event)                 |               |
+________________                                      ________________
+
+
+1) Output to the Html template :
+  1.1) String interpolation :
+    Using {{<data>}}
+  1.2) Property Binding
+    Using [property] = "data"
+2) React to event by User
+  2.1) Event Binding
+    Using (event) = "expression"
+3) Two way databinding
