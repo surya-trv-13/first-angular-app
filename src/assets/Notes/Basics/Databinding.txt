@@ -22,3 +22,15 @@ ________________                                      ________________
   2.1) Event Binding
     Using (event) = "expression"
 3) Two way databinding
+--------------------------------------------------------------------------------------------
+
+String Interpolation
+-> any data which is of type string or can be converted to type string can be sent from the ts file to html.
+  => it can be received by adding {{<data>}} in the Html page.
+  => the data can be a string, convertible string, or a method which returns a string
+
+---------------------------------------------------------------------------------------------
+
+Property Binding
+-> When we need to bind any html element Properties for the values from TS then it is called Property Binding
+  => It can be used by [<property-name>] = "<Typescript Expression to evaluate the Property>"
