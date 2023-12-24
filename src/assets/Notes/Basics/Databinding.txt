@@ -34,3 +34,13 @@ String Interpolation
 Property Binding
 -> When we need to bind any html element Properties for the values from TS then it is called Property Binding
   => It can be used by [<property-name>] = "<Typescript Expression to evaluate the Property>"
+
+---------------------------------------------------------------------------------------------
+
+Event Binding
+-> When we want to send data back to the server from the UI, we use Event Binding
+  => This can be done by using the following
+  => by binding the events of the HtmlElement we can use send the response back
+   (<eventName>)="method/expression to handle the event."
+   This method can take the event for that element - $event
+
