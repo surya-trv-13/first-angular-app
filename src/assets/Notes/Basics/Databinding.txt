@@ -44,3 +44,12 @@ Event Binding
    (<eventName>)="method/expression to handle the event."
    This method can take the event for that element - $event
 
+----------------------------------------------------------------------------------------------
+
+Two way Databinding
+-> When we want to store the form data to any property.
+ => This is a combination of Property Binding and event binding
+ => THis can be achieved by using Directives
+  -> [(ngModel)]="<property-name>"
+
+
