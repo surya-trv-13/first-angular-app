@@ -1,0 +1,9 @@
+<input type="text" name="username" id="user1" [(ngModel)]="updatedUserName" />
+<p>UserName is {{ updatedUserName }}</p>
+<button
+  cls="btn btn-secondary"
+  [disabled]="updatedUserName === ''"
+  (click)="udpateUserField()"
+>
+  Submit
+</button>

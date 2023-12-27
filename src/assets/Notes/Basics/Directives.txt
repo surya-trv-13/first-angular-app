@@ -1,0 +1,13 @@
+What is Directives?
+_________________________
+Directives are instructions in DOM.
+When we create a component these are one way a Directive as these are instruction to add a component to one place.
+However, these are directives with Template.
+There are directives without a template
+Which are custom directives with @Directive decorator.
+
+We have some predefined Directives
+
+-> ngIf - This directive is a Structural Directive which can be used to add if we want to insert a element into the DOM
+(Re writing the DOM to be precise)
+
